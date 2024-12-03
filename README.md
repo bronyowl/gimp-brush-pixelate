@@ -86,7 +86,7 @@ To assign a keyboard shortcut to the Auto Pixelate plugin:
 2. In the Keyboard Shortcuts Dialog:
    - Use the search field to find "Auto Pixelate"
    - Click on the action line for Auto Pixelate
-   - When "New accelerator..." appears, press your desired key combination(`Shift+Alt+P` is recommended to avoid confliction)
+   - When "New accelerator..." appears, press your desired key combination(`Shift+Alt+M` is recommended to avoid confliction)
    - Click "Save" to apply immediately
 
 ## Author

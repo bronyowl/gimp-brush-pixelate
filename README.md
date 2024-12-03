@@ -71,11 +71,11 @@ The plugin creates a setup where:
 
 
 ## Default Parameters
-(you could adjust them in the auto_pixelate.py file)
+(you can adjust them in the auto_pixelate.py file)
 - Default pixelation block size: 10 pixels
 - Brush preset: "2. Hardness 075"
-- Brush spacing: 10% for smooth application
-- Initial mask: Black (completely hidden)
+- Brush spacing: 10% 
+
 
 ## Setting Up a Keyboard Shortcut
 

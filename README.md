@@ -1,11 +1,11 @@
 # Brush Pixelate GIMP Plugin
 
-A specialized GIMP plugin that creates a dynamic pixelation effect where your brush strokes are applied.
+A simple GIMP plugin that creates a dynamic pixelation effect where your brush strokes are applied, treamlining the process of mosaic censorship.
 
 ## Installation Guide
 
 ### Windows
-1. Download the `brush_pixelate.py` file
+1. Download the `auto_pixelate.py` file
 2. Locate your GIMP plugins folder:
    ```
    C:\Users\[YourUsername]\AppData\Roaming\GIMP\2.10\plug-ins\
@@ -69,19 +69,25 @@ The plugin creates a setup where:
    - The pixelation appears only where you brush
 4. Adjust the mask with black/white brushes to fine-tune the effect
 
-## Tips
 
-- Use a larger brush for broader pixelation areas
-- Paint with black to hide pixelation
-- Adjust brush hardness for different edge effects
-- Layer opacity can be adjusted for subtle effects
-
-## Technical Details
-
+## Default Parameters
+(you could adjust them in the auto_pixelate.py file)
 - Default pixelation block size: 10 pixels
 - Brush preset: "2. Hardness 075"
 - Brush spacing: 10% for smooth application
 - Initial mask: Black (completely hidden)
+
+## Setting Up a Keyboard Shortcut
+
+To assign a keyboard shortcut to the Auto Pixelate plugin:
+
+1. Open GIMP and navigate to `Edit > Keyboard Shortcuts`
+
+2. In the Keyboard Shortcuts Dialog:
+   - Use the search field to find "Auto Pixelate"
+   - Click on the action line for Auto Pixelate
+   - When "New accelerator..." appears, press your desired key combination(`Shift+Alt+P` is recommended to avoid confliction)
+   - Click "Save" to apply immediately
 
 ## Author
 
